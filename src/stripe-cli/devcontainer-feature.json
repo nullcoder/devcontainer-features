@@ -1,0 +1,20 @@
+{
+    "name": "Stripe CLI",
+    "id": "stripe-cli",
+    "version": "1.0.0",
+    "description": "A hello world feature",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select version of the Stripe CLI, if not latest."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/git"
+    ]
+}
