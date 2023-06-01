@@ -2,7 +2,7 @@
     "name": "Stripe CLI",
     "id": "stripe-cli",
     "version": "1.0.0",
-    "description": "A hello world feature",
+    "description": "Installs the Stripe CLI. Auto-detects latest version and installs needed dependencies.",
     "options": {
         "version": {
             "type": "string",
