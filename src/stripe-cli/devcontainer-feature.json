@@ -3,6 +3,7 @@
     "id": "stripe-cli",
     "version": "1.0.0",
     "description": "Installs the Stripe CLI. Auto-detects latest version and installs needed dependencies.",
+    "documentationURL": "https://github.com/nullcoder/devcontainer-features/tree/main/src/stripe-cli",
     "options": {
         "version": {
             "type": "string",
